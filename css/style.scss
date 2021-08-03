@@ -1,0 +1,253 @@
+// Colors
+
+// // Primary
+
+$softRed: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$darkDesaturatedCyan : hsl(167, 40%, 24%);
+$DarkBlue : hsl(198, 62%, 26%);
+$darkModerateCyan : hsl(168, 34%, 41%);
+
+// // Neutral
+
+$veryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+$veryDarkGrayishBlue: hsl(213, 9%, 39%);
+$darkGrayishBlue: hsl(232, 10%, 55%);
+$grayishBlue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+// fonts
+$fontSize: 18px;
+$fontFraunces : 'fraunces';
+$fontBarlow : 'barlow';
+
+body{
+    overflow-x: hidden;
+}
+header{
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    img{
+        margin: 20px 40px;
+        display: inline-block;
+    }
+    nav{
+        position: relative;
+        right: 2%;
+        button{
+            position: absolute;
+            right: 5%;
+            top: -50px;
+        }
+        ul{
+            position: absolute;
+            right: 44px;
+            top: -30px;
+            display: flex;
+            li{
+                display: block;
+                margin: 10px;
+                a{
+                    color: $white;
+                }
+                a:hover{
+                    color: $white;
+                }
+                .contact{
+                    background-color: $white;
+                    border-radius: 20px;
+                    font-size: $fontSize;
+                    padding: 10px 22px;
+                    color: $veryDarkDesaturatedBlue;
+                    font-family: $fontFraunces;
+                }
+                .contact:hover{
+                    color: $white;
+                    background-color: rgba($color: $grayishBlue, $alpha: 0.4)    ;
+                }
+            }
+        }
+    }
+    .head{
+        margin: auto;
+        h1{
+            color: $white;
+            font-size: $fontFraunces;
+            font-size: 60px;
+            text-align: center;
+            margin-top: 11vh;
+        }
+        img{
+            margin: 0 47%;
+        }
+    }
+}
+// header
+// header
+
+// images
+// images
+.images{
+    .col-md-6 , .col-12{
+        padding: 0;
+    }
+    img{
+        width: 100%;
+        height: 63vh;
+    }
+    .content{
+        padding: 19% 19% 0% 19%;
+        h1{
+            font-family: $fontBarlow;
+        }
+        .one{
+            font-family: $fontBarlow;
+            font-size: 20px;
+            color: $veryDarkDesaturatedBlue;
+            border-bottom: 4px solid;
+            border-color: rgba($color: $yellow, $alpha: 0.3);
+        }
+        .one:hover{
+            text-decoration: none;
+            border-color: rgba($color: $yellow, $alpha: 1);
+        }
+        .two{
+            font-family: $fontBarlow;
+            font-size: 20px;
+            color: $veryDarkDesaturatedBlue;
+            border-bottom: 4px solid;
+            border-color: rgba($color: $softRed, $alpha: 0.3);
+        }
+        .two:hover{
+            text-decoration: none;
+            border-color: rgba($color: $softRed, $alpha: 1);
+        }
+    }
+    .fruit1 , .fruit2{
+        width: 100%;
+        height: 74vh;
+        h1{
+            font-family: $fontFraunces;
+            text-align: center;
+            padding-top: 50vh;
+        }
+        p{
+            padding: 0 25%;
+            text-align: center;
+        }
+    }
+    .fruit1{
+        background-image: url(../images/desktop/image-graphic-design.jpg);
+    }
+    .fruit2{
+        background-image: url(../images/desktop/image-photography.jpg);
+    }
+}
+// images
+// images
+
+// clients
+// clients
+.clients{
+    margin: 100px 0;
+    h1{
+        font-family: $fontFraunces;
+        font-weight: 600;
+        text-align: center;
+        color: $grayishBlue;
+        margin: 50px 0;
+        
+    }
+    .content{
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: 30px auto;
+        }
+        p{
+            text-align: center;
+            margin: 30px 0;
+        }
+        .name{
+            display: block;
+            text-align: center;
+            font-size: 22px;
+            font-family: $fontBarlow;
+            font-weight: 600;
+        }
+        .jop{
+            display: block;
+            text-align: center;
+            color: $grayishBlue;
+        }
+    }
+}
+// clients
+// clients
+
+// gallery
+// gallery
+.gallery{
+    .col-6 , .col-md03{
+        padding: 0;
+    }
+    img{
+        width: 100%;
+        height: 60vh;
+    }
+}
+// gallery
+// gallery
+
+footer{
+    background-color: $darkModerateCyan;
+    height: 50vh;
+    h1{
+        font-family: $fontBarlow;
+        color: $darkDesaturatedCyan;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .nav{
+        position: relative;
+        left: 36%;
+        display: flex;
+        li{
+            display: block;
+            margin: 0 30px;
+        }
+    }
+    .social{
+        position: relative;
+        left: 40%;
+        display: flex;
+        li{
+            display: block;
+            margin: 20px;
+        }
+    }
+    a{
+        color: $darkDesaturatedCyan;
+        font-size: 20px;
+    }
+    a:hover{
+        color: $white;
+    }
+    @media (max-width : 650px) {
+        .nav{
+            left: 17%;
+        }
+        .social{
+            left: 26%;
+        }
+    }
+}
+// footer
+// footer

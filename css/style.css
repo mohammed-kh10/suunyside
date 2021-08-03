@@ -1,0 +1,208 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+header img {
+  margin: 20px 40px;
+  display: inline-block;
+}
+header nav {
+  position: relative;
+  right: 2%;
+}
+header nav button {
+  position: absolute;
+  right: 5%;
+  top: -50px;
+}
+header nav ul {
+  position: absolute;
+  right: 44px;
+  top: -30px;
+  display: flex;
+}
+header nav ul li {
+  display: block;
+  margin: 10px;
+}
+header nav ul li a {
+  color: white;
+}
+header nav ul li a:hover {
+  color: white;
+}
+header nav ul li .contact {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 10px 22px;
+  color: #23303e;
+  font-family: "fraunces";
+}
+header nav ul li .contact:hover {
+  color: white;
+  background-color: rgba(167, 171, 174, 0.4);
+}
+header .head {
+  margin: auto;
+}
+header .head h1 {
+  color: white;
+  font-size: "fraunces";
+  font-size: 60px;
+  text-align: center;
+  margin-top: 11vh;
+}
+header .head img {
+  margin: 0 47%;
+}
+
+.images .col-md-6, .images .col-12 {
+  padding: 0;
+}
+.images img {
+  width: 100%;
+  height: 63vh;
+}
+.images .content {
+  padding: 19% 19% 0% 19%;
+}
+.images .content h1 {
+  font-family: "barlow";
+}
+.images .content .one {
+  font-family: "barlow";
+  font-size: 20px;
+  color: #23303e;
+  border-bottom: 4px solid;
+  border-color: rgba(250, 212, 0, 0.3);
+}
+.images .content .one:hover {
+  text-decoration: none;
+  border-color: #fad400;
+}
+.images .content .two {
+  font-family: "barlow";
+  font-size: 20px;
+  color: #23303e;
+  border-bottom: 4px solid;
+  border-color: rgba(254, 120, 103, 0.3);
+}
+.images .content .two:hover {
+  text-decoration: none;
+  border-color: #fe7867;
+}
+.images .fruit1, .images .fruit2 {
+  width: 100%;
+  height: 74vh;
+}
+.images .fruit1 h1, .images .fruit2 h1 {
+  font-family: "fraunces";
+  text-align: center;
+  padding-top: 50vh;
+}
+.images .fruit1 p, .images .fruit2 p {
+  padding: 0 25%;
+  text-align: center;
+}
+.images .fruit1 {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+.images .fruit2 {
+  background-image: url(../images/desktop/image-photography.jpg);
+}
+
+.clients {
+  margin: 100px 0;
+}
+.clients h1 {
+  font-family: "fraunces";
+  font-weight: 600;
+  text-align: center;
+  color: #a7abae;
+  margin: 50px 0;
+}
+.clients .content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto;
+}
+.clients .content p {
+  text-align: center;
+  margin: 30px 0;
+}
+.clients .content .name {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-family: "barlow";
+  font-weight: 600;
+}
+.clients .content .jop {
+  display: block;
+  text-align: center;
+  color: #a7abae;
+}
+
+.gallery .col-6, .gallery .col-md03 {
+  padding: 0;
+}
+.gallery img {
+  width: 100%;
+  height: 60vh;
+}
+
+footer {
+  background-color: #458c7e;
+  height: 50vh;
+}
+footer h1 {
+  font-family: "barlow";
+  color: #25564b;
+  text-align: center;
+  padding: 50px 0;
+}
+footer .nav {
+  position: relative;
+  left: 36%;
+  display: flex;
+}
+footer .nav li {
+  display: block;
+  margin: 0 30px;
+}
+footer .social {
+  position: relative;
+  left: 40%;
+  display: flex;
+}
+footer .social li {
+  display: block;
+  margin: 20px;
+}
+footer a {
+  color: #25564b;
+  font-size: 20px;
+}
+footer a:hover {
+  color: white;
+}
+@media (max-width: 650px) {
+  footer .nav {
+    left: 17%;
+  }
+  footer .social {
+    left: 26%;
+  }
+}/*# sourceMappingURL=style.css.map */
